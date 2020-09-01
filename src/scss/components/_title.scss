@@ -1,19 +1,20 @@
 .title-1 {
-  color: $primary;
-  font-size: 2.4rem;
+  color: #2a4d69 ;
+  font-size: 2.5rem;
+  font-weight: bold;
   line-height: 1.2;
   font-family: $font-family-heading;
   @include media-breakpoint-up(md) {
     font-size: 3rem;
   }
   &.black {
-    color: #222222;
+    color: #1a1a1a ;
   }
 }
 .title-2 {
-  font-family: $font-family-base;
-  font-weight: light;
-  color: #333333;
+  font-family: $font-family-heading;
+  font-weight: bold;
+  color: #2a4d69 ;
   font-size: 2.4rem;
   @include media-breakpoint-up(md) {
     font-size: 4rem;
@@ -24,14 +25,16 @@
 }
 .title-3 {
   font-family: $font-family-base;
-  font-weight: light;
-  color: #333333;
+  font-weight: bold;
+  color:#2a4d69 ;
   font-size: 1.6rem;
   @include media-breakpoint-up(sm) {
-    font-size: 2rem;
+  font-size: 2rem;
+
   }
   @include media-breakpoint-up(md) {
     font-size: 2.4rem;
+
   }
   a {
     display: block;

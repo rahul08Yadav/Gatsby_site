@@ -5,7 +5,7 @@
   line-height: 40px;
   padding: 0 14px;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  background: $primary;
+  background: #2a4d69 ;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
@@ -16,8 +16,8 @@
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   &:hover {
-    color: #fff;
-    background-color: lighten($primary, 10%);
+    color: #1a1a1a;
+    background-color:#adcbe3 ;
     transform: translateY(-1px);
     box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     text-decoration: none;

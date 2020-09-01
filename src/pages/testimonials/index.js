@@ -1,9 +1,10 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, withPrefix, Link} from 'gatsby';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 
 const Testimonials = (props) => {
+
   const testimonials = props.data.allMarkdownRemark.edges;
   return (
     <Layout bodyClass="page-testimonials">
@@ -12,11 +13,13 @@ const Testimonials = (props) => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Testimonals</h1>
+              <h1>Solutions</h1>
             </div>
           </div>
         </div>
       </div>
+
+
 
       <div className="container pb-6">
         <div className="row">
@@ -24,9 +27,12 @@ const Testimonials = (props) => {
             <div key={edge.node.frontmatter.path} className="col-12 col-md-6 mb-1">
               <div className="testimonial">
                 <div className="testimonials-meta">
+
                   <h2 className="testimonials-title">{edge.node.frontmatter.title}</h2>
-                  <p className="testimonials-name">{edge.node.frontmatter.name}</p>
-                  <p className="testimonials-jobtitle">{edge.node.frontmatter.jobtitle}</p>
+                  <div className="feature-image">
+                    <p >{edge.node.frontmatter.title}</p>
+                  </div>
+
                 </div>
                 <div
                   className="testimonials-content"

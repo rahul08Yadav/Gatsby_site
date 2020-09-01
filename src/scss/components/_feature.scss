@@ -1,8 +1,9 @@
 .feature {
   height: 100%;
-  border: 2px solid #eaeaea;
+  border: 2px solid #2a4d69 ;
   padding: 20px;
-  background-color: #ffffff;
+    border-radius: 8px;
+  background-color: #e7eff6 ;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -20,8 +21,9 @@
     height: auto;
   }
   .feature-title {
+    color:darker(#2a4d69,20%) ;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: bold;
     line-height: 1.2;
   }
   .feature-content {

@@ -6,6 +6,7 @@
   padding-bottom: 100px;
   @include media-breakpoint-up(sm) {
     padding-top: 160px;
+
     padding-bottom: 80px;
   }
   @include media-breakpoint-up(md) {
@@ -17,8 +18,9 @@
     padding-bottom: 100px;
   }
   h1 {
-    color: $primary;
+    color: darker(#2a4d69,20%) ;
     font-size: 2.4rem;
+    font-weight: bold;
     line-height: 1.2;
     font-family: $font-family-heading;
     width: 70%;
@@ -30,8 +32,8 @@
       width: 70%;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 3rem;
-      width: 50%;
+      font-size: 2.8rem;
+      width: 40%;
     }
   }
   p {
@@ -39,7 +41,7 @@
     font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.4;
-    color: $secondary;
+    color: darker(#4b86b4,30%) ;
     @include media-breakpoint-up(sm) {
       width: 70%;
     }

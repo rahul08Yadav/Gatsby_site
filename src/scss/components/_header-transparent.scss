@@ -1,7 +1,7 @@
 .header-transparent {
   @include media-breakpoint-up(md) {
     background-color: transparent;
-    color: #ffffff;
+    color: #007043;
   }
   .logo {
     @include media-breakpoint-up(lg) {
@@ -14,7 +14,7 @@
         a {
           &:hover {
             background: transparent;
-            color: #ffffff;
+            color: #1a1a1a;
           }
         }
       }
