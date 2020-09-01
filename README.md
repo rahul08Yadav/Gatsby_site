@@ -4,7 +4,7 @@ Serif is a beautiful small business theme for Gatsby. It contains content types 
 
 [Live Demo](https://gatsby-serif-theme.netlify.com/)
 
-![Gatsby Serif Theme screenshot](https://github.com/JugglerX/gatsby-serif-theme/blob/master/screenshots/screenshot-with-border.png)
+<!--![Gatsby Serif Theme screenshot](https://github.com/JugglerX/gatsby-serif-theme/blob/master/screenshots/screenshot-with-border.png)-->
 
 ## Theme features
 
