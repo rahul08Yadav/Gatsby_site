@@ -12,12 +12,13 @@ const Team = (props) => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h1>Meet The Team</h1>
+              <h1>About Us</h1>
               <p>
-                Our team of qualified accountants and financial consultants can help your business
+                Our team of qualified Developers and technical consultants can help your business
                 at any stage of it’s growth.
               </p>
             </div>
+
           </div>
         </div>
       </div>
@@ -46,8 +47,10 @@ const Team = (props) => {
                         <strong>{edge.node.frontmatter.jobtitle}</strong>
                       </li>
                       <li>
-                        <a target="_blank" href={edge.node.frontmatter.linkedinurl}>
-                          {edge.node.frontmatter.linkedinurl}
+                        <a href={edge.node.frontmatter.linkedinurl}>
+                        <img src="/social/linkedin.svg" style={{height:32,width:32}} target="_blank">
+
+                        </img>
                         </a>
                       </li>
                       <li>

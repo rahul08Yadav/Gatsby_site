@@ -1,6 +1,6 @@
 import React, { useState }  from "react"
 import axios from "axios";
-import { Link } from "gatsby"
+import { graphql, Link, StaticQuery } from 'gatsby';
 import Layout from "../layouts/index"
 const Form = () => {
 
@@ -42,20 +42,20 @@ const Form = () => {
             <div className="form-group">
                 <label className= "feature-title" for="exampleInputEmail1" required="required"><strong>Email address </strong> </label>
                 <br></br>
-                <input style={{width: 500, height:45}}type="text" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
+                <input style={{width: 500, height:45}}type="text" name="email" className="col-12" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
                 </div>
             <div className="form-group">
             <br></br>
                 <label for="exampleInputName"><strong>Name</strong></label>
                 <br></br>
-                <input style={{width: 500, height:45}}type="text" name="name" className="form-control" id="exampleInputName" placeholder="Enter your name" required="required"/>
+                <input style={{width: 500, height:45}}type="text" name="name" className="col-12" id="exampleInputName" placeholder="Enter your name" required="required"/>
 
             </div>
             <div className="form-group">
             <br></br>
                 <label for="exampleFormControlSelect1"><strong>Message</strong></label>
                 <br></br>
-                 <textarea style={{width: 500, height:150}}id="subject" name="subject" placeholder="Write something.."/>
+                 <textarea style={{width: 500, height:150}}id="subject" name="subject" className="col-12" placeholder="Write something.."/>
 
             </div>
 
@@ -76,5 +76,4 @@ const Form = () => {
 
     );
   };
-
   export default Form;

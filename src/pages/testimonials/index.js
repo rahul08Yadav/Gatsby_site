@@ -24,13 +24,13 @@ const Testimonials = (props) => {
       <div className="container pb-6">
         <div className="row">
           {testimonials.map(edge => (
-            <div key={edge.node.frontmatter.path} className="col-12 col-md-6 mb-1">
+            <div key={edge.node.frontmatter.path} className="col-12 ">
+            <br></br>
               <div className="testimonial">
                 <div className="testimonials-meta">
-
-                  <h2 className="testimonials-title">{edge.node.frontmatter.title}</h2>
+                  <h2 className="testimonials-title" id={edge.node.frontmatter.title}>{edge.node.frontmatter.title}</h2>
                   <div className="feature-image">
-                    <p >{edge.node.frontmatter.title}</p>
+                    <img alt={edge.node.frontmatter.title} src= {withPrefix(edge.node.frontmatter.image)} />
                   </div>
 
                 </div>
@@ -61,6 +61,7 @@ export const query = graphql`
             path
             name
             jobtitle
+            image
           }
         }
       }

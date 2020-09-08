@@ -6,11 +6,11 @@ const Call = props => (
     <div className="call-box-top">
       <div className="call-phone">
         <strong>Phone: </strong>
-        999999999
+         {props.data.site.siteMetadata.contact.phone}
       </div>
       <div className="call-email">
         <strong>Email: </strong>
-        info.bluelit@gmail.com
+         {props.data.site.siteMetadata.contact.email}
       </div>
     </div>
     {props.button && (

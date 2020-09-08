@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/bluelitsolutions/",
+        "image": "/social/facebook.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://mobile.twitter.com/home",
+        "image": "/social/twitter.svg"
+    },
+    {
+        "name": "Instagram",
+        "link": "https://www.instagram.com/bluelit.solutions?r=nametag",
+        "image": "/social/instagram.svg"
+    }
+]

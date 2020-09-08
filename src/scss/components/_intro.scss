@@ -2,23 +2,23 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   @include media-breakpoint-up(sm) {
-    padding-top: 160px;
+    padding-top: 100px;
 
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
   @include media-breakpoint-up(md) {
-    padding-top: 160px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   @include media-breakpoint-up(lg) {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   h1 {
-    color: darker(#2a4d69,20%) ;
+    color: $black ;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 1.2;
@@ -41,7 +41,7 @@
     font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.4;
-    color: darker(#4b86b4,30%) ;
+    color: $black;
     @include media-breakpoint-up(sm) {
       width: 70%;
     }

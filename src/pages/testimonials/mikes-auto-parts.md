@@ -1,12 +1,12 @@
 ---
 path: '/testimonials/mikes-auto-parts'
-title: 'App Development'
+title: 'Engineering Studio Design'
 date: 2018-11-28T15:01:01+10:00
 draft: false
-image: 'https://prepinsta.com/wp-content/uploads/2020/08/prime-logo.png'
+image: '/testimonials/engineer_studio.png'
 businessurl: ''
 name: ''
-business: 'App Development'
+business: 'Engineering Studio Design'
 jobtitle: ''
 ---
 

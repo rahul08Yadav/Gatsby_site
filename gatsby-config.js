@@ -2,24 +2,28 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
-    description: 'my theme',
+    title: 'Blue Lit',
+    description: 'Blue Lit Website',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      phone: '+91 79936 48675',
+      email: 'info.bluelit@gmail.com',
     },
     menuLinks: [
+      {
+        name: 'Home',
+        link: '/',
+      },
       {
         name: 'Services',
         link: '/services',
       },
       {
-        name: 'Team',
-        link: '/team',
+        name: 'Solutions',
+        link: '/testimonials',
       },
       {
-        name: 'Testimonials',
-        link: '/testimonials',
+        name: 'Team',
+        link: '/team',
       },
       {
         name: 'Contact',
