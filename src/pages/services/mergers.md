@@ -7,9 +7,15 @@ featured: true
 draft: false
 ---
 
+
+
 Convert your ideas into authentic products, with Blue Lit’s experienced product engineers. Right from ideation, conceptualization to the actual product delivery, our expert team will ensure that they are up to your expectations. Our vast experience in various domains help you in responding quickly to changing market conditions, reducing the total cost of development & ownership, and ensuring profitability with high quality standards.
 
-## Ne verba patulosque numen vix libet
+
+## Product Journey
+![Alt Text](/certificate/Product Engineering.jpg)
+
+<!-- ## Ne verba patulosque numen vix libet
 
 Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
 Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
@@ -49,4 +55,4 @@ Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
 iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
 et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
 somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+tamen lentis spectat, Titania est animo. -->

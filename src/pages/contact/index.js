@@ -3,7 +3,7 @@ import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 import Call from '../../components/Call';
 import Form from '../../components/Form';
-
+import Map from '../../components/maps.js'
 const Contact = props => (
   <Layout bodyClass="page-contact">
     <SEO title="Contact" />
@@ -13,7 +13,10 @@ const Contact = props => (
           <div className="col-12">
             <h1>Contact</h1>
               <Form/>
+            <Map/>
+
           </div>
+
         </div>
       </div>
     </div>
